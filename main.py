@@ -1,4 +1,5 @@
-from qw import movies, books, music
+from qw import movies, books
+from we import music
 print("Добро пожаловать в Советчик по Фильмам/Книгам/Музыке!")
 category = input("Выберите категорию (фильмы/книги/музыка/стоп): ").lower()
 while category != 'стоп':
