@@ -20,14 +20,3 @@ def books(genre):
         return recommendations[genre]
     else:
         return "Неизвестный жанр."
-def music(genre):
-    recommendations = {
-        "рок": "'Led Zeppelin', 'Queen', 'Nirvana', 'The Rolling Stones', 'Pink Floyd'",
-        "поп": "'Taylor Swift', 'Adele', 'Bruno Mars', 'Billie Eilish', 'Dua Lipa'",
-        "джаз": "'Miles Davis', 'Louis Armstrong', 'Ella Fitzgerald', 'John Coltrane'",
-        "классическая": "произведения Бетховена, Моцарта, Чайковского, Баха",
-        "электронная": "'Daft Punk', 'Avicii', 'Calvin Harris', 'Deadmau5'"}
-    if genre in recommendations:
-        return recommendations[genre]
-    else:
-        return "Неизвестный жанр."
